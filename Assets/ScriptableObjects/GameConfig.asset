@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486490790c48d4dbfaba8c9ad10004ae, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: ITR.Runtime::ITR.GameConfig
+  startCruiseKmh: 80
+  maxCruiseKmh: 130
+  minSpeedKmh: 35
+  coastDecel: 3
+  difficultyRampSeconds: 210
+  spawnAhead: 340
+  minSpawnDistance: 260
+  despawnBehind: 25
+  minActiveTraffic: 18
+  maxActiveTraffic: 24
+  rowGapEasy: {x: 22, y: 30}
+  rowGapHard: {x: 18, y: 26}
+  doubleRowChanceEasy: 0.35
+  doubleRowChanceHard: 0.5
+  followGap: 12
+  wallWindow: 18
+  laneChangeSafeDistance: 70
+  coinLineInterval: {x: 90, y: 170}
+  coinsPerLine: 6
+  coinSpacing: 4
+  coinPickupRadius: 1.6
+  nearMissPoints: 100
+  overtakePoints: 10
+  nearMissClearance: 1.5
+  nearMissMinSpeedKmh: 90
+  comboWindow: 3
+  nitroStart: 0.5
+  nitroMinToActivate: 0.25
+  nitroDrainPerSecond: 0.2
+  nitroPerNearMiss: 0.18
+  nitroPerOvertake: 0.03
+  nitroPassivePerSecond: 0.01
+  nitroSpeedMultiplier: 1.35
+  nitroScoreMultiplier: 1.5
+  coinsPerKm: 20
+  coinsPerNearMiss: 2
+  coinValue: 1
+  reviveInvulnerability: 2.5
+  fogStart: 190
+  fogEnd: 430

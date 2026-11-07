@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba21ebd4ba04f69a2cc0f9360c742c, type: 3}
+  m_Name: police
+  m_EditorClassIdentifier: ITR.Runtime::ITR.VehicleData
+  id: police
+  displayName: Highway Patrol
+  description: Interceptor with sirens. Fast hands, faster feet.
+  shape: 5
+  price: 9000
+  topSpeedKmh: 195
+  acceleration: 10
+  handling: 14
+  braking: 20
+  maxUpgradeLevel: 5
+  speedPerLevelKmh: 7
+  handlingPerLevel: 0.9
+  brakingPerLevel: 2
+  upgradeBaseCost: 900
+  colors:
+  - {r: 0.96, g: 0.96, b: 0.96, a: 1}
+  - {r: 0.1, g: 0.2, b: 0.45, a: 1}
+  placeholderModel: 1

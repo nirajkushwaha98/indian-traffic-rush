@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 700212949d95c4657b0b4cd4c4e3c6b3, type: 3}
+  m_Name: TrafficCatalog
+  m_EditorClassIdentifier: ITR.Runtime::ITR.TrafficCatalog
+  types:
+  - {fileID: 11400000, guid: 49f84edf3f9f542bfb3ce88af0fb4b0c, type: 2}
+  - {fileID: 11400000, guid: fab2f28f4e8cb467b9e4659f8d304eac, type: 2}
+  - {fileID: 11400000, guid: ca069ad1739044b67abfc600c66b98fc, type: 2}
+  - {fileID: 11400000, guid: e9879626d8e474546b86e970d584d62e, type: 2}
+  - {fileID: 11400000, guid: 05e1be0ed48724e93973230c02f06e88, type: 2}
+  - {fileID: 11400000, guid: 9512565a6f7074fb8839edc470961a2e, type: 2}
+  - {fileID: 11400000, guid: ee49320e811a34b179d07bd0858106b3, type: 2}

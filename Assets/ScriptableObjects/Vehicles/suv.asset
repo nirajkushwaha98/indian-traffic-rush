@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba21ebd4ba04f69a2cc0f9360c742c, type: 3}
+  m_Name: suv
+  m_EditorClassIdentifier: ITR.Runtime::ITR.VehicleData
+  id: suv
+  displayName: Ghat Runner SUV
+  description: Tall, tough and planted. Brakes like an anchor.
+  shape: 2
+  price: 5500
+  topSpeedKmh: 176
+  acceleration: 8.5
+  handling: 10.5
+  braking: 18
+  maxUpgradeLevel: 5
+  speedPerLevelKmh: 7
+  handlingPerLevel: 0.9
+  brakingPerLevel: 2
+  upgradeBaseCost: 550
+  colors:
+  - {r: 0.12, g: 0.12, b: 0.12, a: 1}
+  - {r: 0.95, g: 0.95, b: 0.95, a: 1}
+  - {r: 0.35, g: 0.25, b: 0.15, a: 1}
+  - {r: 0.6, g: 0.05, b: 0.05, a: 1}
+  - {r: 0.2, g: 0.35, b: 0.25, a: 1}
+  placeholderModel: 1

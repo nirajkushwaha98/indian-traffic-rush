@@ -1,0 +1,21 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+*.csproj
+*.sln
+*.keystore
+*.jks
+.DS_Store
+.vs/
+.idea/
+
+# Added for GitHub upload
+.utmp/
+*.apk
+*.aab
+*_BurstDebugInformation_DoNotShip/

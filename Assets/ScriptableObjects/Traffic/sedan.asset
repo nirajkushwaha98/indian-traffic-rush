@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdf45391126a44d186fc4e527cf92b1, type: 3}
+  m_Name: sedan
+  m_EditorClassIdentifier: ITR.Runtime::ITR.TrafficVehicleData
+  id: sedan
+  shape: 1
+  speedKmh: {x: 42, y: 64}
+  spawnWeight: {x: 2, y: 1.8}
+  laneChangeChance: 0.05
+  colors:
+  - {r: 0.95, g: 0.95, b: 0.95, a: 1}
+  - {r: 0.15, g: 0.15, b: 0.18, a: 1}
+  - {r: 0.45, g: 0.47, b: 0.5, a: 1}
+  - {r: 0.25, g: 0.1, b: 0.1, a: 1}
+  poolSize: 6

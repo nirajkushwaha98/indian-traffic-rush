@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88a29593b0c8a46fbb74a7f0a742c8f6, type: 3}
+  m_Name: GameAssets
+  m_EditorClassIdentifier: ITR.Runtime::ITR.GameAssets
+  config: {fileID: 11400000, guid: 8aabb4f84fc0f4b05bbf0cee9f5f2030, type: 2}
+  vehicles: {fileID: 11400000, guid: 07b6c888b4dd849b08d615638f961efc, type: 2}
+  traffic: {fileID: 11400000, guid: 6d4840473c70c460ba206b8e8781b3c4, type: 2}
+  ads: {fileID: 11400000, guid: 50547136fd0d74f2fbc4c2cdedfea4f7, type: 2}
+  lit: {fileID: 2100000, guid: 7db1c912ea6354782bcdefb9a3e6a74a, type: 2}
+  unlit: {fileID: 2100000, guid: edd972b05ab0b496fa9555a6d02a3e97, type: 2}
+  particleAdditive: {fileID: 2100000, guid: 449bf87dbe3cb46a588196376cfad28f, type: 2}
+  particleAlpha: {fileID: 2100000, guid: 16cc06442251a453fb624b59467c77f7, type: 2}
+  skybox: {fileID: 2100000, guid: 5940b91665b024e0b967407abe01c46d, type: 2}
+  privacyPolicyUrl: https://example.com/indian-traffic-rush/privacy

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba21ebd4ba04f69a2cc0f9360c742c, type: 3}
+  m_Name: hatchback
+  m_EditorClassIdentifier: ITR.Runtime::ITR.VehicleData
+  id: hatchback
+  displayName: City Hatch
+  description: Nimble starter hatch. Cheap to run, easy to love.
+  shape: 0
+  price: 0
+  topSpeedKmh: 150
+  acceleration: 7
+  handling: 11
+  braking: 14
+  maxUpgradeLevel: 5
+  speedPerLevelKmh: 7
+  handlingPerLevel: 0.9
+  brakingPerLevel: 2
+  upgradeBaseCost: 250
+  colors:
+  - {r: 0.85, g: 0.12, b: 0.1, a: 1}
+  - {r: 0.95, g: 0.95, b: 0.95, a: 1}
+  - {r: 0.1, g: 0.35, b: 0.85, a: 1}
+  - {r: 1, g: 0.6, b: 0.05, a: 1}
+  - {r: 0.15, g: 0.15, b: 0.17, a: 1}
+  placeholderModel: 1
